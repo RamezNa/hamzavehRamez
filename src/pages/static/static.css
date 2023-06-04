@@ -1,0 +1,41 @@
+.container{
+    width: 85%;
+    margin-right: 7.5%;
+}
+
+.container .dropdown , .dropdown .dropdown-menu{
+    display: flex;
+    justify-content: center;
+}
+
+.container .dropdown .dropdown-menu{
+    top:116px;
+}
+
+.container h1{
+    text-align: center;
+    margin-top: 0px ;
+}
+
+.container .choseDate{
+    display: flex;
+    justify-content: center;
+}
+
+.container .choseDate .dateChose , .container .choseDate .space{
+    margin-left: 25px;
+}
+
+.container .choseDate .dateChose{
+    cursor: pointer;
+    transform: 1s;
+}
+
+.container .choseDate .dateChose:hover{
+    color: rgba(87, 121, 91, 0.959);
+}
+
+.container .choseDate .chosen{
+    color: rgba(87, 121, 91, 0.959);
+}
+

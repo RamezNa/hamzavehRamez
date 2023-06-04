@@ -1,0 +1,118 @@
+.card{
+    width:16%;
+    /* height:320px; */
+    margin-right: 3.5%;
+    border-radius: 8px;
+    box-shadow: -1px 4px 8px rgba(0, 0, 0, 0.205);
+    padding: 2%;
+    margin-top: 2%;
+    /* font-family: 'Noto Sans Hebrew', sans-serif; */
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(250, 250, 250);
+    transition: .3s;
+}
+
+.card:hover{
+    box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.605);
+}
+
+.card .card-image{
+    width: 50%;
+    padding-right: 20%;
+    padding-left: 20%;
+    border-radius: 28%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* flex:25% */
+    height: 100px;
+    /* object-fit: cover; */
+}
+
+.card .card-content{
+    width: 100%;
+    text-align: center;  
+}
+
+.card .card-content .card-title{
+    font-size: 38px;
+    color: rgba(87, 121, 91, 0.959);
+    margin-bottom: 5px;
+    text-align: center;
+    
+}
+
+.card .card-content .card-title-price{
+    font-size: 17px;
+    font-weight: 200;
+    margin: 2% 0px;
+    font-weight: 400;
+
+    
+}
+
+.card .card-content .card-qunataty-container{
+    display: flex;
+    flex-direction: row;
+    margin: 1%;
+    /* padding-right: 25%; */
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+    justify-content: center;
+}
+
+.card .card-content .card-qunataty-container .card-increment , .card .card-content .card-qunataty-container .card-decrease{
+    margin: 0;
+    cursor: pointer;
+    font-size: 35px;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+
+.card .card-content .card-qunataty-container .card-increment {
+    color: rgba(87, 121, 91, 0.959);
+    
+}
+
+.card .card-content .card-qunataty-container .card-decrease{
+    color: rgba(226, 6, 24, 0.795);
+    
+}
+
+.card .card-content .card-qunataty-container .card-title-quantaty{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0px 18px;
+}
+
+.card .card-content .info{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.card .card-content .card-btn{
+    font-family: inherit;
+    width: 150px;
+    height: 30px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 9px;
+    margin-bottom: 8px;
+    cursor:pointer
+}
+
+.card .card-content .card-btn-green{
+    background-color: rgba(87, 121, 91, 0.959);
+}
+
+.card .card-content .card-btn-red{
+    background-color: rgba(226, 6, 24, 0.795);
+}
+
